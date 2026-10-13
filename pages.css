@@ -1,0 +1,72 @@
+/* Interior page layouts share the home page's type, colour and component tokens. */
+.inner-page h2{font-size:42.966px}
+.page-hero{background:var(--warm);padding:112px 0}
+.page-hero-grid{display:grid;grid-template-columns:1.041fr 1fr;gap:96px;align-items:center}
+.page-hero h1,.contact-hero h1{font-size:51.15px;line-height:55.242px;letter-spacing:-1.7902px;margin-top:20px}
+.page-hero-photo{height:480px;border:9px solid white;box-shadow:0 22px 60px #1a483c1f}
+.page-hero-photo img{width:100%;height:100%;object-fit:cover}
+.story-grid,.contact-grid{display:grid;grid-template-columns:.7391fr 1fr;gap:96px;align-items:start}
+.story-grid h2{margin-top:20px;max-width:367px}
+.story-lead{font-family:var(--serif);font-size:24px;line-height:37.2px;color:var(--green)}
+.body-copy{color:var(--muted);font-size:16px;line-height:28.8px}
+.guiding-values,.discovery{background:var(--warm)}
+.guiding-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:19.2px;margin-top:56px}
+.guiding-card{padding:28.8px;background:white;border-radius:22px;min-height:256.58px}
+.guiding-icon{width:48px;height:48px;border-radius:50%;display:flex;align-items:center;justify-content:center}
+.kindness-icon{background:#fce4da}.curiosity-icon{background:#fbf0c9}.safety-icon{background:#dcebe4}.community-icon{background:#e8e2f5}
+.guiding-card h3{font-size:24.8px;line-height:26.784px;margin-top:24px}
+.guiding-card p{color:var(--muted);font-size:14.4px;line-height:24.48px}
+.school-stats{background:var(--green);padding:64px 0}
+.stats-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr))}
+.stats-grid>div{padding:0 32px;border-right:1px solid #ffffff29;text-align:center}
+.stats-grid>div:last-child{border:0}
+.stats-grid dt{font-family:var(--serif);font-weight:700;font-size:44.8px;line-height:67.2px;color:var(--yellow)}
+.stats-grid dd{margin:0 auto;max-width:176px;font-size:12.48px;line-height:18.72px;color:#ffffffb3}
+.school-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22.4px;margin-top:56px}
+.school-card{border:1px solid #174f4214;background:white;border-radius:24px;padding:36.8px;min-height:465.02px}
+.school-card-top{display:flex;align-items:flex-start;justify-content:space-between;gap:8px;padding-bottom:25.6px}
+.school-age{background:var(--warm);border-radius:999px;padding:6.08px 10.88px;font-weight:700;font-size:10.88px;line-height:16.32px;white-space:nowrap;color:var(--muted)}
+.school-card h3{font-size:24.8px;line-height:26.784px}
+.school-card>p{color:var(--muted);font-size:14.4px;line-height:24.48px}
+.school-features{list-style:none;margin:24px 0 0;padding:19.2px 0 0;border-top:1px solid #174f4214;display:grid;gap:8px}
+.school-features li{display:flex;gap:8px;align-items:center;color:var(--green);font-size:13.44px;font-weight:600;line-height:20.16px}
+.school-card .text-link{margin-top:24px}
+.discovery-photo{height:480px;overflow:hidden;border-radius:28px 28px 140px 28px}
+.discovery-photo img{width:100%;height:100%;object-fit:cover}
+.discovery-copy h2{margin-top:20px}
+.discovery-copy>.body-copy{margin-top:24px}
+.activity-grid{list-style:none;padding:0;margin:32px 0 0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12.8px}
+.activity-grid li{display:flex;align-items:center;gap:8px;background:white;border-radius:10px;padding:12.8px 16px;min-height:44.8px;font-size:12.8px;font-weight:700;line-height:19.2px;color:var(--green)}
+.contact-hero{padding:112px 0 80px;background:var(--warm)}
+.contact-heading{max-width:700px;text-align:center}
+.contact-heading .eyebrow{justify-content:center}
+.contact-heading>p:last-child{max-width:620px;margin:25.6px auto 0;color:var(--muted);font-size:16.8px;line-height:29.4px}
+.contact-intro{margin-top:24px;line-height:28px}
+.contact-details{display:grid;gap:19.2px;margin-top:35.2px}
+.contact-detail{display:flex;align-items:center;gap:16px;min-height:44px}
+.contact-detail>span{width:44px;height:44px;border-radius:12px;background:#fce4da;flex:none;display:flex;align-items:center;justify-content:center}
+.contact-detail small{display:block;color:var(--muted);font-size:11.2px;line-height:16.8px}
+.contact-detail strong,.contact-detail a{display:block;color:var(--green);font-weight:700;font-size:14.08px;line-height:21.12px;margin-top:2.4px}
+.contact-detail a:hover{text-decoration:underline}
+.contact-photo{width:100%;height:210px;object-fit:cover;border-radius:20px 80px 20px 20px;margin-top:35.2px}
+.enquiry-form{background:var(--warm);border-radius:26px;padding:41.6px;min-width:0}
+.form-eyebrow{font-size:11.52px;font-weight:700;line-height:17.28px;letter-spacing:1.3824px;text-transform:uppercase;color:var(--coral);padding-top:5px}
+.enquiry-form h2{font-size:32px;line-height:34.56px;letter-spacing:-1.12px;margin-top:10px}
+.form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:16px;row-gap:19.2px;margin-top:32px}
+.enquiry-form label{display:block;font-size:12.16px;font-weight:700;line-height:18.24px}
+.enquiry-form input,.enquiry-form select,.enquiry-form textarea{display:block;width:100%;min-width:0;margin-top:7.2px;border:1px solid #dbe3de;border-radius:10px;background:white;color:#1f332e;font:700 12.16px/18.24px var(--sans);padding:14.08px 16px}
+.enquiry-form input,.enquiry-form select{height:48.16px}
+.enquiry-form textarea{height:121.33px;resize:vertical}
+.enquiry-form input::placeholder,.enquiry-form textarea::placeholder{color:#9aa6a1;opacity:1}
+.enquiry-form :is(input,select,textarea):focus-visible{outline:2px solid var(--green);outline-offset:2px}
+.select-wrap{display:block;position:relative}
+.enquiry-form select{appearance:none;padding-right:32px;cursor:pointer}
+.select-wrap>img{position:absolute;right:12px;top:21px;pointer-events:none}
+.message-label{margin-top:19.2px;margin-bottom:24.2px}
+.enquiry-form .button{font-family:var(--sans);cursor:pointer}
+.enquiry-form .button:focus-visible{outline:3px solid var(--coral);outline-offset:4px}
+.form-note{font-size:10.4px;line-height:15.6px;color:var(--muted);margin-top:16px}
+.form-status{font-size:12px;line-height:20px;color:var(--green);margin-top:12px}
+@media(max-width:950px) and (min-width:851px){.page-hero-grid,.story-grid,.contact-grid{gap:48px}.guiding-grid{gap:16px}.guiding-card{padding:22px}.guiding-card h3{font-size:22px}.school-card{padding:24px}.school-card h3{font-size:22px}.school-age{padding:6px 8px;font-size:10px}.enquiry-form{padding:28px}.inner-page h2{font-size:36px}.enquiry-form h2{font-size:28px}.contact-detail strong{font-size:13px}.activity-grid{grid-template-columns:1fr}}
+@media(max-width:850px){.page-hero{padding:64px 0 72px}.page-hero-grid,.story-grid,.contact-grid{grid-template-columns:1fr;gap:48px}.page-hero h1,.contact-hero h1{font-size:clamp(40px,7vw,51.15px);line-height:1.08;letter-spacing:-.035em}.page-hero-photo{width:100%;max-width:480px;margin:auto;height:480px}.inner-page h2{font-size:36px}.story-grid h2{max-width:500px}.guiding-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;margin-top:40px}.guiding-card{min-height:240px}.stats-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:32px 0}.stats-grid>div:nth-child(2){border:0}.school-grid{grid-template-columns:1fr;max-width:480px;margin:40px auto 0}.school-card{min-height:0;padding:32px}.school-card .text-link{margin-top:24px}.school-features{gap:10px}.discovery-photo{max-width:480px;width:100%;margin:auto}.activity-grid{max-width:540px}.contact-hero{padding:64px 0}.contact-info,.enquiry-form{width:100%;max-width:560px;margin:auto}.contact-photo{height:260px}.enquiry-form h2{font-size:32px}.inner-page .section-heading h2{font-size:36px}.inner-page .tour-card h2{font-size:34.782px}}
+@media(max-width:480px){.guiding-grid{grid-template-columns:1fr}.guiding-card{min-height:0;padding:28px}.stats-grid>div{padding:0 16px}.stats-grid dt{font-size:38px}.page-hero-photo{height:400px}.activity-grid{grid-template-columns:1fr}.enquiry-form{padding:28px 24px}.form-grid{grid-template-columns:1fr}.contact-detail strong{font-size:12.5px}.enquiry-form h2{font-size:28px}.school-stats{padding:48px 0}.discovery-photo{height:420px}.school-card{padding:28px}.school-card h3{font-size:25px}}
